@@ -22,7 +22,7 @@ safety standards for travellers.
 # Wireframe 
 images and json files are also incorrported with a fashion;
 
- 1) Home component provides introduction about the App
+ 1)Home component provides introduction about the App
 
  2)Contacts contains the contact address of the tourst attraction places 
 tourists could call for detail information to the particular attraction.
