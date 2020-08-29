@@ -1,0 +1,22 @@
+
+<ul>
+    <li *ngFor= "let safety of safetylists"
+    (click)= "chooseSecurity(safety)">
+    {{ safety.nation }}
+    </li>
+</ul>
+<hr>
+
+    <div *ngIf= "security; else elseBlock">
+        <p>Please choose a nation!</p>
+        <h1>Security nation: {{security.nation}}</h1>
+        <h2>Security level: {{security.level}}</h2>
+        <h3>Security details: {{security.details}}</h3>
+        
+
+</div>
+
+<ng-template #elseBlock>
+<p>Please choose a nation from the above lists</p>
+</ng-template>
+

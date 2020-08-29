@@ -1,0 +1,21 @@
+<ul>
+    <li *ngFor= "let destination of attractions"
+    (click)= "choosePlace(destination)">
+    {{ destination.name }}
+    </li>
+</ul>
+<hr>
+
+    <div *ngIf= "place; else elseBlock">
+        <p>Please choose a place!</p>
+        <h1>Place name: {{place.name}}</h1>
+        <h2>Place country: {{place.country}}</h2>
+        <h3>Place description: {{place.description}}</h3>
+        <img src="place picture" alt="picture"> {{place.picture}}
+
+</div>
+
+<ng-template #elseBlock>
+<p>Please choose a place from the above lists</p>
+</ng-template>
+
