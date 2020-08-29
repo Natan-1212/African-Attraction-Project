@@ -21,8 +21,10 @@ safety standards for travellers.
 
 # Wireframe 
 images and json files are also incorrported with a fashion;
-1) Home component provides introduction about the App
-2)Contacts contains the contact address of the tourst attraction places 
+
+ 1) Home component provides introduction about the App
+
+ 2)Contacts contains the contact address of the tourst attraction places 
 tourists could call for detail information to the particular attraction.
 
  3)Twenty Best African Attraction places data contains Json file and image ;
@@ -36,7 +38,8 @@ tourists could call for detail information to the particular attraction.
 contains contains json file;
         nation = name of country included in tourist attraction places.
         level = rank of tourist safety standard
-        details = country safety details for tiurists 
+        details = country safety details for tourists
+        
 5)Updates 
 Recent events that might affect the travellers plan and journey to attraction destinations.
 Tourists will be alerted and updated when there is something good or risky situations occured in 
