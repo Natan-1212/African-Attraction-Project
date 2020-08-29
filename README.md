@@ -1,3 +1,54 @@
+# About the App
+
+This app provides an ample information for travellers to Africa by providing the details of 
+the best tourist attraction places and country related tourist safety standards 
+in the continent. 
+
+# End Users 
+
+The end users of this app are tourists who wants to explore the vergine attractive sceneries of African continent.
+This app provides details about the top 20 African tousrist attraction places and explores safety information for travellers
+when they plan to go to the country of the listed places.
+
+# MVP Features of the APP
+
+-Created with angular 10
+-ng new generator command used to start the AfricanBestAttraction App.
+-angular routing, hard coded information employed to explore the 20 best 
+african tourist attraction sites and the corresponding tourist countries 
+safety standards for travellers. 
+-App uses at least five components: Home, Contacts, African Attractions,Safety Standard and Updates.
+
+# Wireframe 
+images and json files are also incorrported with a fashion;
+1) Home component provides introduction about the App
+2)Contacts contains the contact address of the tourst attraction places 
+tourists could call for detail information to the particular attraction.
+
+ 3)Twenty Best African Attraction places data contains Json file and image ;
+        -id = country id designated 
+        -country = country location of the attraction cites
+        -name = name of the attraction 
+        -description = details of the attraction place tourists would experience
+        -picture = sample image of the attraction 
+
+4)Country safety levels and details of precaution tourists should take 
+contains contains json file;
+        nation = name of country included in tourist attraction places.
+        level = rank of tourist safety standard
+        details = country safety details for tiurists 
+5)Updates 
+Recent events that might affect the travellers plan and journey to attraction destinations.
+Tourists will be alerted and updated when there is something good or risky situations occured in 
+those tourist attraction places. 
+
+# Stretch Goals
+
+-Making the app responsive mobile design 
+-Making the app interractive with other tour guide organisations and operators, transportation and hotel bookig apps 
+-Making the app more responsive and incorrportaing the booking buttons for logging 
+-Widening the app to include other attraction sites in Africa and the entire world
+
 # CapstoneRouting
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
