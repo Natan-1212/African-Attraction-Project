@@ -2,7 +2,7 @@
 
 This app provides an ample information for travellers to Africa by providing the details of 
 the best tourist attraction places and country related tourist safety standards 
-in the continent. 
+in those selected nations. 
 
 # End Users 
 
@@ -15,16 +15,16 @@ when they plan to go to the country of the listed places.
 -Created with angular 10
 -ng new generator command used to start the AfricanBestAttraction App.
 -angular routing, hard coded information employed to explore the 20 best 
-african tourist attraction sites and the corresponding tourist countries 
+african tourist attraction sites and the corresponding tourist countries' 
 safety standards for travellers. 
--App uses at least five components: Home, Contacts, African Attractions,Safety Standard and Updates.
+-App comprises of least five components: Home, Contacts, African Attractions,Safety Standard and Updates.
 
 # Wireframe 
-images and json files are also incorrported with a fashion;
+-Angular Hard codes, Images and json files are incorrported in a fashion;
 
- 1)Home component provides introduction about the App
+ 1)Home- component provides introduction about the App
 
- 2)Contacts contains the contact address of the tourst attraction places 
+ 2)Contacts- contains the contact address of the tourst attraction places 
 tourists could call for detail information to the particular attraction.
 
  3)Twenty Best African Attraction places data contains Json file and image ;
@@ -35,21 +35,21 @@ tourists could call for detail information to the particular attraction.
         -picture = sample image of the attraction 
 
 4)Country safety levels and details of precaution tourists should take 
-contains contains json file;
+contains json file;
         nation = name of country included in tourist attraction places.
         level = rank of tourist safety standard
         details = country safety details for tourists
         
 5)Updates 
-Recent events that might affect the travellers plan and journey to attraction destinations.
+Recent events that might affect the traveller's plan and journey to the attraction destinations.
 Tourists will be alerted and updated when there is something good or risky situations occured in 
 those tourist attraction places. 
 
 # Stretch Goals
 
--Making the app responsive mobile design 
--Making the app interractive with other tour guide organisations and operators, transportation and hotel bookig apps 
--Making the app more responsive and incorrportaing the booking buttons for logging 
+-Making the app responsive to mobile design 
+-Making the app interractive with other tour guide organisations,traveller agents,transportation and hotel bookig apps (by using APIs)
+-Making the app more responsive and incorrportaing the booking buttons
 -Widening the app to include other attraction sites in Africa and the entire world
 
 # CapstoneRouting
